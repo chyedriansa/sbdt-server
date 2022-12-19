@@ -20,6 +20,7 @@ const db = withExclude(new PrismaClient({
       emit: 'stdout',
       level: 'warn'
     }
+    
   ]
 }))
 
